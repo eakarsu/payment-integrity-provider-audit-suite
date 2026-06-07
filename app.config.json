@@ -1,0 +1,145 @@
+{
+  "slug": "payment-integrity-provider-audit-suite",
+  "title": "Payment Integrity Provider Audit Suite",
+  "buyer": "Health plans, TPAs, payment integrity vendors",
+  "description": "Provider audit, overpayment detection, policy edits, recovery workflows, appeals, and savings reporting.",
+  "modules": [
+    {
+      "id": "claim-selection",
+      "table": "claimSelection",
+      "label": "Claim Selection",
+      "description": "Claim Selection workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Risk scoring",
+        "Policy rules",
+        "Sample pulls"
+      ],
+      "prefix": "CS",
+      "seedValues": [
+        "Risk scoring",
+        "Policy rules",
+        "Sample pulls"
+      ]
+    },
+    {
+      "id": "provider-audit",
+      "table": "providerAudit",
+      "label": "Provider Audit",
+      "description": "Provider Audit workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Documentation requests",
+        "Audit status",
+        "Findings"
+      ],
+      "prefix": "PA",
+      "seedValues": [
+        "Documentation requests",
+        "Audit status",
+        "Findings"
+      ]
+    },
+    {
+      "id": "overpayments",
+      "table": "overpayments",
+      "label": "Overpayments",
+      "description": "Overpayments workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Amount identified",
+        "Recovery status",
+        "Aging"
+      ],
+      "prefix": "O",
+      "seedValues": [
+        "Amount identified",
+        "Recovery status",
+        "Aging"
+      ]
+    },
+    {
+      "id": "policy-edits",
+      "table": "policyEdits",
+      "label": "Policy Edits",
+      "description": "Policy Edits workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "NCCI",
+        "Medical necessity",
+        "Duplicate billing"
+      ],
+      "prefix": "PE",
+      "seedValues": [
+        "NCCI",
+        "Medical necessity",
+        "Duplicate billing"
+      ]
+    },
+    {
+      "id": "appeals",
+      "table": "appeals",
+      "label": "Appeals",
+      "description": "Appeals workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Provider dispute",
+        "Evidence package",
+        "Decision"
+      ],
+      "prefix": "A",
+      "seedValues": [
+        "Provider dispute",
+        "Evidence package",
+        "Decision"
+      ]
+    },
+    {
+      "id": "recoveries",
+      "table": "recoveries",
+      "label": "Recoveries",
+      "description": "Recoveries workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Letters",
+        "Offsets",
+        "Refunds"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "Letters",
+        "Offsets",
+        "Refunds"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Savings Analytics",
+      "description": "Savings Analytics workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Gross savings",
+        "Net savings",
+        "Provider patterns"
+      ],
+      "prefix": "SA",
+      "seedValues": [
+        "Gross savings",
+        "Net savings",
+        "Provider patterns"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Compliance",
+      "description": "Compliance workspace for Payment Integrity Provider Audit Suite.",
+      "subfeatures": [
+        "Audit trail",
+        "Regulatory timing",
+        "QA"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Audit trail",
+        "Regulatory timing",
+        "QA"
+      ]
+    }
+  ],
+  "port": 5608
+}

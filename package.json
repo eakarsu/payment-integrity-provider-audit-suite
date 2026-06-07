@@ -1,0 +1,14 @@
+{
+  "name": "payment-integrity-provider-audit-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Provider audit, overpayment detection, policy edits, recovery workflows, appeals, and savings reporting.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
